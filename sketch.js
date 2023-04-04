@@ -19,8 +19,8 @@ function setup() {
 	world = engine.world;
 
 	ground=new Ground(width/2,690,width,20)
-    leftSide = new ground(110,600,20,120)
-	rigthSide = new ground(600,110,20,120)
+    leftSide = new Ground(110,600,20,120)
+	rigthSide = new Ground(600,110,20,120)
 
 	//Create the Bodies Here.
  var ball_options={
